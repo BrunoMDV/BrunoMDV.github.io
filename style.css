@@ -62,9 +62,46 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 .div-pagina-paulinho {
-  background-color:rgb(39, 168, 219);
+  background-color: rgb(156, 39, 219);
+  padding: 20px;
 }
 .hide {
-display: none;
+  display: none;
 }
-
+.div-card {
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  outline: 2px black;
+  background-color: aquamarine;
+  justify-content: center;
+  padding: 20px;
+}
+.div-container-cards {
+  display: flex;
+  max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#card1 {
+  background-color: red;
+  border-radius: 100%;
+}
+#card2 {
+  background-color: yellow;
+  border-radius: 20px;
+}
+#card3 {
+  background-color: blue;
+}
+.label-titulo-card {
+  display: flex;
+  justify-content: center;
+}
