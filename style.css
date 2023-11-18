@@ -61,3 +61,10 @@ h3 {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+.div-pagina-paulinho {
+  background-color:rgb(39, 168, 219);
+}
+.hide {
+display: none;
+}
+
