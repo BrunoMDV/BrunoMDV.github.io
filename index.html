@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>HTML 5 Boilerplate</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <title>Exercícios New Brotha</title>
+    <script src="index.js"></script>
 
-<body>
-  <title>Exercícios New Brotha</title>
-  <script src="index.js"></script>
-
-  <div class="div-container-navbar">
-    <div class="div-navbar">
-      <div class="div-space"></div>
-      <div class="div-button-container">
-        <button class="button-navbar" onclick="chamarPaginaInicial()">PaginaInicial</button>
-        <button class="button-navbar">Bruno</button> 
-        <button class="button-navbar" onclick="chamarPaginaPaulinho()">Paulinho</button>
+    <div class="div-container-navbar">
+      <div class="div-navbar">
+        <div class="div-space"></div>
+        <div class="div-button-container">
+          <button class="button-navbar" onclick="chamarPaginaInicial()">
+            PaginaInicial
+          </button>
+          <button class="button-navbar">Bruno</button>
+          <button class="button-navbar" onclick="chamarPaginaPaulinho()">
+            Paulinho
+          </button>
+        </div>
+        <div class="div-space"></div>
       </div>
-      <div class="div-space"></div>
     </div>
-  </div>
-  <div class="div-pagina-inicial" id="paginaInicial">
-    <div class="div-container-body-page">
-      <h3>Oi, esta é a página inicial</h3>
-      <p>Use os botoes acima para navegar nesse site</p>
-      <p>
-        Eu fiz essa pagina tentando copiar o jeito que o youtube posiciona os
-        ícones lá naquela barra de navegação, copiei algumas configurações de
-        CSS que são usadas pra botar os botoes e fazer a tela esticar conforme
-        a largura do monitor aumenta
-      </p>
+    <div class="div-pagina-inicial" id="paginaInicial">
+      <div class="div-container-body-page">
+        <h3>Oi, esta é a página inicial</h3>
+        <p>Use os botoes acima para navegar nesse site</p>
+        <p>
+          Pra enviar atualizacoes de codigo, entre na pasta do repositorio,
+          brunoMDV.github.io, e use os comandos: <br /><b>git add.</b> <br /><b
+            >git commit</b
+          >
+          <b>-m "mensagem de commit"</b> <br />
+          <b>git push.</b> <br />
+          se voce se perdeu e quer "puxar o save do repositorio, use: <br />
+          <b>git stash </b><br />
+          <b>git pull</b>
+        </p>
+      </div>
     </div>
-
-  </div>
-  <div class="div-pagina-paulinho div-pagina-inicial hide" id="paginaPaulinho">
-    <h3>Essa É A Página Paulinho</h3>
-
-  </div> 
-</body>
-
+    <div
+      class="div-pagina-paulinho div-pagina-inicial hide"
+      id="paginaPaulinho"
+    >
+      <h3>Essa É A Página Paulinho</h3>
+    </div>
+  </body>
 </html>
